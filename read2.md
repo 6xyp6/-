@@ -28,7 +28,6 @@ rosrun wpr_simulation keyboard_vel_ctrl
 
 之后控制小车对仿真地图进行探索，直到rviz界面中没有阴影部分了则探索完毕
 探索之后保存地图
-保存地图
 rosrun map_server map_saver -f ~/catkin_ws/map/my_map
 
 之后将两张地图文件map.yaml和map.pgm更该路径到/catkin_ws/src/wpr_simulation/maps 下
