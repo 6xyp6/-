@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS: Turtle Controller",
+            "type": "ros",
+            "request": "launch",
+            "target": "~/catkin_ws/src/turtle_control/launch/turtle_control.launch",
+            "args": []
+        }
+    ]
+}
