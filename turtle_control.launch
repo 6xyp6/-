@@ -1,0 +1,7 @@
+<launch>
+    <!-- 启动turtlesim仿真环境 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" />
+    
+    <!-- 启动海龟控制节点 -->
+    <node pkg="turtle_control" type="turtle_controller.py" name="turtle_controller" output="screen" />
+</launch>
